@@ -3,11 +3,11 @@ GO
 
 INSERT INTO roles (nombre_rol, descripcion)
 VALUES 
-('Administrador TI', 'Manejo de usuarios, seguridad, respaldos y configuraciÛn'),
-('Direccion Escolar', 'Consulta informaciÛn general, contactos de emergencia, reportes acadÈmicos y datos necesarios para atenciÛn escolar'),
+('Administrador TI', 'Manejo de usuarios, seguridad, respaldos y configuraci√≥n'),
+('Direccion Escolar', 'Consulta informaci√≥n general, contactos de emergencia, reportes acad√©micos y datos necesarios para atenci√≥n escolar'),
 ('Control Escolar', 'Registra alumnos, tutores, grupos e inscripciones'),
-('Docente', 'Consulta ˙nicamente sus grupos y registra evaluaciones'),
-('Alumno', 'Consulta su informaciÛn acadÈmica'),
+('Docente', 'Consulta √∫nicamente sus grupos y registra evaluaciones'),
+('Alumno', 'Consulta su informaci√≥n acad√©mica'),
 ('Auditor', 'Revisa accesos, cambios y registros de seguridad');
 
 INSERT INTO docentes (
@@ -15,14 +15,14 @@ INSERT INTO docentes (
     correo, estatus, observaciones
 )
 VALUES
-('DOC001', 'Melissa Jacqueline', 'Mendieta', 'Gonz·lez', 'melissa.mendieta@sega.edu.mx', 'Activo', 'Docente titular'),
-('DOC002', 'Andrea', 'Infante', 'S·nchez', 'andrea.infante@sega.edu.mx', 'Activo', 'Docente titular'),
-('DOC003', 'Yazmany Jahaziel', 'Guerrero', 'Ceja', 'yazmany.guerrero@sega.edu.mx', 'Activo', 'Docente titular'),
-('DOC004', 'Paola Fernanda', 'RamÌrez', 'Luna', 'paola.ramirez@sega.edu.mx', 'Activo', 'Docente de primaria'),
-('DOC005', 'Miguel ¡ngel', 'Torres', 'Salinas', 'miguel.torres@sega.edu.mx', 'Activo', 'Docente de primaria'),
-('DOC006', 'Claudia Mariana', 'Reyes', 'Ortega', 'claudia.reyes@sega.edu.mx', 'Activo', 'Docente de primaria'),
-('DOC007', 'Roberto Carlos', 'Mendoza', 'Vega', 'roberto.mendoza@sega.edu.mx', 'Activo', 'Docente de primaria'),
-('DOC008', 'Fernanda SofÌa', 'Castillo', 'Nava', 'fernanda.castillo@sega.edu.mx', 'Activo', 'Docente de primaria');
+('DOC001', 'Melissa Jacqueline', 'Mendieta', 'Gonz√°lez', 'melissa.mendieta@sbd.edu.mx', 'Activo', 'Docente titular'),
+('DOC002', 'Andrea', 'Infante', 'S√°nchez', 'andrea.infante@sbd.edu.mx', 'Activo', 'Docente titular'),
+('DOC003', 'Yazmany Jahaziel', 'Guerrero', 'Ceja', 'yazmany.guerrero@sbd.edu.mx', 'Activo', 'Docente titular'),
+('DOC004', 'Paola Fernanda', 'Ram√≠rez', 'Luna', 'paola.ramirez@sbd.edu.mx', 'Activo', 'Docente de primaria'),
+('DOC005', 'Miguel √Ångel', 'Torres', 'Salinas', 'miguel.torres@sbd.edu.mx', 'Activo', 'Docente de primaria'),
+('DOC006', 'Claudia Mariana', 'Reyes', 'Ortega', 'claudia.reyes@sbd.edu.mx', 'Activo', 'Docente de primaria'),
+('DOC007', 'Roberto Carlos', 'Mendoza', 'Vega', 'roberto.mendoza@sbd.edu.mx', 'Activo', 'Docente de primaria'),
+('DOC008', 'Fernanda Sof√≠a', 'Castillo', 'Nava', 'fernanda.castillo@sbd.edu.mx', 'Activo', 'Docente de primaria');
 
 INSERT INTO grupos (
     grado, seccion, ciclo_escolar,
@@ -56,58 +56,58 @@ VALUES
 INSERT INTO materias (nombre_materia, grado, descripcion)
 VALUES
 ('Lectura y escritura', 1, 'Materia de primer grado'),
-('Matem·ticas b·sicas', 1, 'Materia de primer grado'),
+('Matem√°ticas b√°sicas', 1, 'Materia de primer grado'),
 ('Conocimiento del medio', 1, 'Materia de primer grado'),
-('InglÈs', 1, 'Materia de primer grado'),
+('Ingl√©s', 1, 'Materia de primer grado'),
 ('Artes', 1, 'Materia de primer grado'),
-('EducaciÛn fÌsica', 1, 'Materia de primer grado'),
+('Educaci√≥n f√≠sica', 1, 'Materia de primer grado'),
 
 ('Lectura y escritura', 2, 'Materia de segundo grado'),
-('Matem·ticas b·sicas', 2, 'Materia de segundo grado'),
+('Matem√°ticas b√°sicas', 2, 'Materia de segundo grado'),
 ('Conocimiento del medio', 2, 'Materia de segundo grado'),
-('InglÈs', 2, 'Materia de segundo grado'),
+('Ingl√©s', 2, 'Materia de segundo grado'),
 ('Artes', 2, 'Materia de segundo grado'),
-('EducaciÛn fÌsica', 2, 'Materia de segundo grado'),
+('Educaci√≥n f√≠sica', 2, 'Materia de segundo grado'),
 
-('EspaÒol', 3, 'Materia de tercer grado'),
-('Matem·ticas', 3, 'Materia de tercer grado'),
+('Espa√±ol', 3, 'Materia de tercer grado'),
+('Matem√°ticas', 3, 'Materia de tercer grado'),
 ('Ciencias naturales', 3, 'Materia de tercer grado'),
 ('Historia', 3, 'Materia de tercer grado'),
-('GeografÌa', 3, 'Materia de tercer grado'),
-('FormaciÛn cÌvica y Ètica', 3, 'Materia de tercer grado'),
-('InglÈs', 3, 'Materia de tercer grado'),
+('Geograf√≠a', 3, 'Materia de tercer grado'),
+('Formaci√≥n c√≠vica y √©tica', 3, 'Materia de tercer grado'),
+('Ingl√©s', 3, 'Materia de tercer grado'),
 ('Artes', 3, 'Materia de tercer grado'),
-('EducaciÛn fÌsica', 3, 'Materia de tercer grado'),
+('Educaci√≥n f√≠sica', 3, 'Materia de tercer grado'),
 
-('EspaÒol', 4, 'Materia de cuarto grado'),
-('Matem·ticas', 4, 'Materia de cuarto grado'),
+('Espa√±ol', 4, 'Materia de cuarto grado'),
+('Matem√°ticas', 4, 'Materia de cuarto grado'),
 ('Ciencias naturales', 4, 'Materia de cuarto grado'),
 ('Historia', 4, 'Materia de cuarto grado'),
-('GeografÌa', 4, 'Materia de cuarto grado'),
-('FormaciÛn cÌvica y Ètica', 4, 'Materia de cuarto grado'),
-('InglÈs', 4, 'Materia de cuarto grado'),
+('Geograf√≠a', 4, 'Materia de cuarto grado'),
+('Formaci√≥n c√≠vica y √©tica', 4, 'Materia de cuarto grado'),
+('Ingl√©s', 4, 'Materia de cuarto grado'),
 ('Artes', 4, 'Materia de cuarto grado'),
-('EducaciÛn fÌsica', 4, 'Materia de cuarto grado'),
+('Educaci√≥n f√≠sica', 4, 'Materia de cuarto grado'),
 
-('EspaÒol', 5, 'Materia de quinto grado'),
-('Matem·ticas', 5, 'Materia de quinto grado'),
+('Espa√±ol', 5, 'Materia de quinto grado'),
+('Matem√°ticas', 5, 'Materia de quinto grado'),
 ('Ciencias naturales', 5, 'Materia de quinto grado'),
-('Historia de MÈxico y universal', 5, 'Materia de quinto grado'),
-('GeografÌa', 5, 'Materia de quinto grado'),
-('FormaciÛn cÌvica y Ètica', 5, 'Materia de quinto grado'),
-('InglÈs', 5, 'Materia de quinto grado'),
+('Historia de M√©xico y universal', 5, 'Materia de quinto grado'),
+('Geograf√≠a', 5, 'Materia de quinto grado'),
+('Formaci√≥n c√≠vica y √©tica', 5, 'Materia de quinto grado'),
+('Ingl√©s', 5, 'Materia de quinto grado'),
 ('Artes', 5, 'Materia de quinto grado'),
-('EducaciÛn fÌsica', 5, 'Materia de quinto grado'),
+('Educaci√≥n f√≠sica', 5, 'Materia de quinto grado'),
 
-('EspaÒol', 6, 'Materia de sexto grado'),
-('Matem·ticas', 6, 'Materia de sexto grado'),
+('Espa√±ol', 6, 'Materia de sexto grado'),
+('Matem√°ticas', 6, 'Materia de sexto grado'),
 ('Ciencias naturales', 6, 'Materia de sexto grado'),
-('Historia de MÈxico y universal', 6, 'Materia de sexto grado'),
-('GeografÌa', 6, 'Materia de sexto grado'),
-('FormaciÛn cÌvica y Ètica', 6, 'Materia de sexto grado'),
-('InglÈs', 6, 'Materia de sexto grado'),
+('Historia de M√©xico y universal', 6, 'Materia de sexto grado'),
+('Geograf√≠a', 6, 'Materia de sexto grado'),
+('Formaci√≥n c√≠vica y √©tica', 6, 'Materia de sexto grado'),
+('Ingl√©s', 6, 'Materia de sexto grado'),
 ('Artes', 6, 'Materia de sexto grado'),
-('EducaciÛn fÌsica', 6, 'Materia de sexto grado');
+('Educaci√≥n f√≠sica', 6, 'Materia de sexto grado');
 
 INSERT INTO alumnos (
     matricula, nombre, apellido_paterno, apellido_materno,
@@ -115,35 +115,35 @@ INSERT INTO alumnos (
     estatus, observaciones
 )
 VALUES
-('ALU001', '¡ngel Esa˙', 'Hern·ndez', 'GarcÌa', '2019-03-15', 'angel.hernandez@sega.edu.mx', 'Activo', 'Primer grado'),
-('ALU002', 'Valeria', 'DurÛn', 'Pansza', '2019-07-22', 'valeria.duron@sega.edu.mx', 'Activo', 'Primer grado'),
-('ALU003', 'Edwin Uriel', 'Santiago', 'Camacho', '2018-10-28', 'edwin.santiago@sega.edu.mx', 'Activo', 'Segundo grado'),
-('ALU004', 'Grecia Isabel', 'Gonz·lez', 'GarcÌa', '2018-05-19', 'grecia.gonzalez@sega.edu.mx', 'Activo', 'Segundo grado'),
-('ALU005', 'Daniel', 'Cardona', 'Cuellar', '2017-04-11', 'daniel.cardona@sega.edu.mx', 'Activo', 'Tercer grado'),
-('ALU006', 'Javier Gael', 'Garza', 'De la Fuente', '2017-09-02', 'javier.garza@sega.edu.mx', 'Activo', 'Tercer grado'),
-('ALU007', 'Alicia Christyna', 'MartÌnez', 'Parra', '2016-08-14', 'alicia.martinez@sega.edu.mx', 'Activo', 'Cuarto grado'),
-('ALU008', 'Jorge Gael', 'RodrÌguez', 'Ibarra', '2016-02-26', 'jorge.rodriguez@sega.edu.mx', 'Activo', 'Cuarto grado'),
-('ALU009', 'Carolina', 'Garza', 'Ortiz', '2015-06-08', 'carolina.garza@sega.edu.mx', 'Activo', 'Quinto grado'),
-('ALU010', 'Aurora del Carmen', 'Piedra', 'AlegrÌa', '2015-12-17', 'aurora.piedra@sega.edu.mx', 'Activo', 'Quinto grado'),
-('ALU011', 'Carlos Manuel', 'Valerio', 'Rios', '2014-05-23', 'carlos.valerio@sega.edu.mx', 'Activo', 'Sexto grado'),
-('ALU012', 'Mariana SofÌa', 'LÛpez', 'Herrera', '2014-11-09', 'mariana.lopez@sega.edu.mx', 'Activo', 'Sexto grado');
+('ALU001', '√Ångel Esa√∫', 'Hern√°ndez', 'Garc√≠a', '2019-03-15', 'angel.hernandez@sbd.edu.mx', 'Activo', 'Primer grado'),
+('ALU002', 'Valeria', 'Dur√≥n', 'Pansza', '2019-07-22', 'valeria.duron@sbd.edu.mx', 'Activo', 'Primer grado'),
+('ALU003', 'Edwin Uriel', 'Santiago', 'Camacho', '2018-10-28', 'edwin.santiago@sbd.edu.mx', 'Activo', 'Segundo grado'),
+('ALU004', 'Grecia Isabel', 'Gonz√°lez', 'Garc√≠a', '2018-05-19', 'grecia.gonzalez@sbd.edu.mx', 'Activo', 'Segundo grado'),
+('ALU005', 'Daniel', 'Cardona', 'Cuellar', '2017-04-11', 'daniel.cardona@sbd.edu.mx', 'Activo', 'Tercer grado'),
+('ALU006', 'Javier Gael', 'Garza', 'De la Fuente', '2017-09-02', 'javier.garza@sbd.edu.mx', 'Activo', 'Tercer grado'),
+('ALU007', 'Alicia Christyna', 'Mart√≠nez', 'Parra', '2016-08-14', 'alicia.martinez@sbd.edu.mx', 'Activo', 'Cuarto grado'),
+('ALU008', 'Jorge Gael', 'Rodr√≠guez', 'Ibarra', '2016-02-26', 'jorge.rodriguez@sbd.edu.mx', 'Activo', 'Cuarto grado'),
+('ALU009', 'Carolina', 'Garza', 'Ortiz', '2015-06-08', 'carolina.garza@sbd.edu.mx', 'Activo', 'Quinto grado'),
+('ALU010', 'Aurora del Carmen', 'Piedra', 'Alegr√≠a', '2015-12-17', 'aurora.piedra@sbd.edu.mx', 'Activo', 'Quinto grado'),
+('ALU011', 'Carlos Manuel', 'Valerio', 'Rios', '2014-05-23', 'carlos.valerio@sbd.edu.mx', 'Activo', 'Sexto grado'),
+('ALU012', 'Mariana Sof√≠a', 'L√≥pez', 'Herrera', '2014-11-09', 'mariana.lopez@sbd.edu.mx', 'Activo', 'Sexto grado');
 
 INSERT INTO tutores (
     nombre, apellido_paterno, apellido_materno,
     parentesco, fecha_nacimiento, observaciones
 )
 VALUES
-('Laura Beatriz', 'GarcÌa', 'Morales', 'Madre', '1991-04-18', 'Tutora principal'),
-('MÛnica Alejandra', 'Pansza', 'LÛpez', 'Madre', '1990-11-25', 'Tutora principal'),
+('Laura Beatriz', 'Garc√≠a', 'Morales', 'Madre', '1991-04-18', 'Tutora principal'),
+('M√≥nica Alejandra', 'Pansza', 'L√≥pez', 'Madre', '1990-11-25', 'Tutora principal'),
 ('Luis Fernando', 'Santiago', 'Reyes', 'Padre', '1989-09-13', 'Tutor principal'),
-('Claudia Isabel', 'GarcÌa', 'Santos', 'Madre', '1992-06-07', 'Tutora principal'),
-('JosÈ Antonio', 'Cardona', 'RamÌrez', 'Padre', '1988-03-21', 'Tutor principal'),
+('Claudia Isabel', 'Garc√≠a', 'Santos', 'Madre', '1992-06-07', 'Tutora principal'),
+('Jos√© Antonio', 'Cardona', 'Ram√≠rez', 'Padre', '1988-03-21', 'Tutor principal'),
 ('Adriana Michelle', 'De la Fuente', 'Vargas', 'Madre', '1990-01-30', 'Tutora principal'),
-('Patricia Elena', 'Parra', 'N˙Òez', 'Madre', '1987-07-12', 'Tutora principal'),
-('Roberto Iv·n', 'RodrÌguez', 'Campos', 'Padre', '1986-10-05', 'Tutor principal'),
+('Patricia Elena', 'Parra', 'N√∫√±ez', 'Madre', '1987-07-12', 'Tutora principal'),
+('Roberto Iv√°n', 'Rodr√≠guez', 'Campos', 'Padre', '1986-10-05', 'Tutor principal'),
 ('Gabriela Fernanda', 'Ortiz', 'Salazar', 'Madre', '1989-12-01', 'Tutora principal'),
-('Carmen Alejandra', 'AlegrÌa', 'Mendoza', 'Madre', '1988-08-16', 'Tutora principal'),
-('Manuel Alejandro', 'Valerio', 'Hern·ndez', 'Padre', '1985-02-27', 'Tutor principal'),
+('Carmen Alejandra', 'Alegr√≠a', 'Mendoza', 'Madre', '1988-08-16', 'Tutora principal'),
+('Manuel Alejandro', 'Valerio', 'Hern√°ndez', 'Padre', '1985-02-27', 'Tutor principal'),
 ('Daniela Paola', 'Herrera', 'Castillo', 'Madre', '1986-05-20', 'Tutora principal');
 
 INSERT INTO alumno_tutor (
@@ -195,7 +195,7 @@ INSERT INTO docente_materia_grupo (
     observaciones
 )
 VALUES
-(2, 8, 4, '2025-2026', 'Andrea imparte Matem·ticas b·sicas en segundo A'),
-(2, 22, 10, '2025-2026', 'Andrea imparte EspaÒol en cuarto A'),
+(2, 8, 4, '2025-2026', 'Andrea imparte Matem√°ticas b√°sicas en segundo A'),
+(2, 22, 10, '2025-2026', 'Andrea imparte Espa√±ol en cuarto A'),
 (1, 1, 1, '2025-2026', 'Melissa imparte Lectura y escritura en primero A'),
-(3, 19, 7, '2025-2026', 'Yazmany imparte InglÈs en tercero A');
+(3, 19, 7, '2025-2026', 'Yazmany imparte Ingl√©s en tercero A');
